@@ -1,0 +1,46 @@
+Graded Commit:2eb9fb4660fb5333a4cbf28f0347f19e25302fff
+
+TEST NAME, POINTS,OUT OF
+sf_memsuite_grading/free_block_too_small,1,1,
+sf_memsuite_grading/free_null,1,1,
+sf_memsuite_grading/free_unallocated,1,1,
+sf_memsuite_grading/initialization,1,1,
+sf_memsuite_grading/malloc_free_coalesce_both,1,1,
+sf_memsuite_grading/malloc_free_coalesce_lower,1,1,
+sf_memsuite_grading/malloc_free_coalesce_upper,1,1,
+sf_memsuite_grading/malloc_free_first_block,1,1,
+sf_memsuite_grading/malloc_free_last_block,1,1,
+sf_memsuite_grading/malloc_free_lifo,1,1,
+sf_memsuite_grading/malloc_free_no_coalesce,1,1,
+sf_memsuite_grading/malloc_to_exhaustion,0,1,"1 assertion(s) failed.: tests/grading_tests_p1.c:382: Allocation failed, but there is still a suitable free block."
+sf_memsuite_grading/malloc_with_splinter,1,1,
+sf_memsuite_grading/multiple_quick_lists,1,1,
+sf_memsuite_grading/realloc_larger,1,1,
+sf_memsuite_grading/realloc_same,1,1,
+sf_memsuite_grading/realloc_size_0,1,1,
+sf_memsuite_grading/realloc_smaller,0,1,"1 assertion(s) failed.: tests/__grading_helpers.c:105: Block 0x180b818ed9173cb7 has wrong block_size (got 208, expected 224)"
+sf_memsuite_grading/realloc_splinter,1,1,
+sf_memsuite_grading/simple_quick_list,1,1,
+sf_memsuite_grading/single_malloc_1,1,1,
+sf_memsuite_grading/single_malloc_16,1,1,
+sf_memsuite_grading/single_malloc_32,1,1,
+sf_memsuite_grading/single_malloc_exactly_one_page_needed,1,1,
+sf_memsuite_grading/single_malloc_max,0,1,1 assertion(s) failed.: tests/__grading_helpers.c:67: block's footer does not match header for 0x74af031e5038
+sf_memsuite_grading/single_malloc_more_than_one_page_needed,0,1,1 assertion(s) failed.: tests/__grading_helpers.c:67: block's footer does not match header for 0x766590166038
+sf_memsuite_grading/single_malloc_three_pages_needed,0,1,1 assertion(s) failed.: tests/__grading_helpers.c:67: block's footer does not match header for 0x7ad66c9e4038
+sf_memsuite_grading/stress_test,0,1,The test crashed.: None
+sf_memsuite_stats/internal_fragmentation,0,1,The test crashed.: None
+sf_memsuite_stats/peak_utilization,0,1,The test crashed.: None
+sf_memsuite_stats/realloc_internal_fragmentation,0,1,The test crashed.: None
+sf_memsuite_stats/stress_test,0,1,The test crashed.: None
+sfmm_basecode_suite/free_coalesce,1,1,
+sfmm_basecode_suite/free_no_coalesce,1,1,
+sfmm_basecode_suite/free_quick,1,1,
+sfmm_basecode_suite/freelist,1,1,
+sfmm_basecode_suite/malloc_an_int,1,1,
+sfmm_basecode_suite/malloc_four_pages,0,1,"1 assertion(s) failed.: tests/sfmm_tests.c:23: Wrong number of free blocks (exp=0, found=2)"
+sfmm_basecode_suite/malloc_too_large,0,1,The test crashed.: None
+sfmm_basecode_suite/realloc_larger_block,1,1,
+sfmm_basecode_suite/realloc_smaller_block_free_block,1,1,
+sfmm_basecode_suite/realloc_smaller_block_splinter,1,1,
+total,30,42
