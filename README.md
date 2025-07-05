@@ -22,7 +22,3 @@ The allocator includes support for tracking:
 - **Peak Heap Utilization**
 
 These statistics help in evaluating the efficiency of memory usage over time.
-
-## Notes
-
-All logic, structures, and functions in this allocator were implemented from the ground up, including memory manipulation, linked list management, coalescing strategies, and header/footer obfuscation. No prebuilt helper functions or templates were used in the construction of this codebase.
